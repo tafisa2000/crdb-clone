@@ -1,0 +1,11 @@
+.all{
+    margin: auto;
+margin-top: 20px;
+    top: 50px;
+    background: #f1f5f9;
+    width: 270px;
+    height: 42px;
+    border-radius: 20px;
+     box-shadow: inset 10px 10px 20px rgba(10, 99, 169, 0.1),
+              inset -10px -10px 20px rgba(10, 99, 169, 0.1);
+}

@@ -1,0 +1,31 @@
+.bottom {
+  display: flex;
+  margin-top: auto; /* Ensure it appears at the bottom if SideBar has a fixed height */
+}
+.Arrow {
+  background-color: transparent;
+  border-radius: 10px 0px 0px 10px;
+  font-size: small;
+  margin: 20px;
+  /* color: white; */
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.page {
+  background-color: #43b02b;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+    margin: 20px;
+color: white;
+border-radius: 5px;
+}
+.Arrow:hover{
+     background-color: #43b02b;
+     color: white;
+     cursor: pointer;
+ 
+}
+.page:hover{
+  cursor: pointer;
+}

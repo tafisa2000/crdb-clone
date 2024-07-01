@@ -1,0 +1,27 @@
+.tabs{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    width: 270px;
+    height: 42px;
+    border-radius: 20px;
+     box-shadow: inset 10px 10px 20px rgba(10, 99, 169, 0.1),
+              inset -10px -10px 20px rgba(10, 99, 169, 0.1);
+}
+.button{
+      background-color: transparent;
+width: 130px;
+height: 35px;
+border-radius: 20px;
+border: none;
+color: black;
+font-size: 17px;
+}
+.button:disabled{
+      background-color: #43b02b;
+      color: white;
+
+
+}

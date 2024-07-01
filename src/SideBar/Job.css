@@ -1,0 +1,33 @@
+.job {
+  min-height: 60px; /* Use min-height instead of height */
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px rgba(10, 99, 169, 0.05), -5px -5px 10px rgba(10, 99, 169, 0.05);
+  text-align: left;
+  padding: 10px 30px 20px 30px; /* Adjusted padding */
+  /* width: 100%; Expand to fill the available width */
+  max-width: 600px; /* Set a max-width if needed */
+  margin: 20px auto; /* Center the job div horizontally with auto margins */
+  border-left: 2px solid #43b02b;
+  border-right: 2px solid white;
+}
+
+.job:hover {
+  border: 1px solid #43b02b;
+  border-left: 3px solid #43b02b;
+  background-color: white; /* Add a solid green border */
+  cursor: pointer;
+}
+
+h4, h5, p {
+  margin: 0;
+  color: grey;
+}
+
+p {
+  color: grey;
+}
+
+h4, h5 {
+  font-weight: 500;
+  color: #47557b;
+}
